@@ -1,0 +1,22 @@
+
+package appfiguras;
+
+public class AppFiguras {
+
+    public static void main(String[] args) {
+        
+        Rombo rombo = new Rombo();
+        Trapecio trapecio = new Trapecio();
+        
+        
+        System.out.println("----------------Rombo");
+        System.out.println("Area: \t\t"+rombo.area(5,10));
+        System.out.println("Perimetro: \t"+rombo.perimetro(6));
+        
+        
+        System.out.println("----------------Trapecio");
+        System.out.println("Area: \t\t"+trapecio.area(3,6,10));
+        System.out.println("Perimetro: \t"+trapecio.perimetro(3,6,5));
+    }
+    
+}
