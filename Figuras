@@ -1,0 +1,13 @@
+
+package appfiguras;
+
+public abstract class Figuras {
+
+    public Figuras() {
+    }
+    
+    
+    public abstract double area();
+    public abstract double perimetro();
+    
+}
